@@ -1,0 +1,8 @@
+# Copyright (c) 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_ROOT
+	string "Custom board root"
+	depends on !BOARD_USER_CUSTOM_NET_IF_OFFLOAD_L2
+
+source "boards/arm/Kconfig"
