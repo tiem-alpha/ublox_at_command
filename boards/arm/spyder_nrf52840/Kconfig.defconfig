@@ -6,7 +6,4 @@ if BOARD_SPYDER_NRF52840
 config BOARD
 	default "spyder_nrf52840"
 
-config BT_CTLR
-   default BT
-
-endif
+endif # BOARD_SPYDER_NRF52840

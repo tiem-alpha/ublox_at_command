@@ -12,7 +12,7 @@
 #include <zephyr/sys/printk.h>
 #include <string.h>
 
-#define RING_BUF_SIZE 1000
+#define RING_BUF_SIZE 256
 #define RX_BUF_SIZE   10
 
 #define RECEIVE_TIMEOUT 0
@@ -73,6 +73,7 @@ static void uart_rx_thread(void *p1, void *p2, void *p3)
 	}
 }
 
+// Callback function for UART events
 void uart_cb(const struct device *dev, struct uart_event *evt, void *user_data)
 {
 	switch (evt->type) {
