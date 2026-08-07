@@ -7,5 +7,8 @@ project(ublox_at_command)
 
 target_sources(app PRIVATE
 	src/main.c
+	src/uart_async_port.c
 	src/uart_bridge.c
+	src/uart0_hmi.c
+	src/ublox_transport.c
 )

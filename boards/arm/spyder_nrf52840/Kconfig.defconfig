@@ -1,9 +1,0 @@
-# Copyright (c) 2023 Nordic Semiconductor ASA
-# SPDX-License-Identifier: Apache-2.0
-
-if BOARD_SPYDER_NRF52840
-
-config BOARD
-	default "spyder_nrf52840"
-
-endif # BOARD_SPYDER_NRF52840

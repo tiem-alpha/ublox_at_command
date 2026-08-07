@@ -1,6 +1,0 @@
-board:
-  name: spyder_nrf52840
-  full_name: Spyder NRF52840
-  vendor: others
-  socs:
-  - name: nrf52840

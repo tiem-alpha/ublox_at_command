@@ -1,0 +1,6 @@
+#ifndef UART_APP_LIMITS_H
+#define UART_APP_LIMITS_H
+
+#define UART_APP_MAX_AT_COMMAND_LEN 254
+
+#endif /* UART_APP_LIMITS_H */
